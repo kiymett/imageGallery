@@ -1,0 +1,40 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.pictures{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.pictures .picture{
+    font-size:1.2rem;
+    padding:1rem;
+    width:300px;
+    border-radius: 10px;
+
+}
+.pictures .picture .imageContainer {
+    height: 40vh;
+    overflow: hidden;
+  }
+.pictures .picture .imageContainer img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    border-radius:10px;
+}
+.pictures .picture .info{
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+  }
+
+  .pictures .picture .info h2{
+    color:pink;
+  }
+  
